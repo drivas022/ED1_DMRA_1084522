@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 
 namespace LAB02_ED1_DMRA
 {
@@ -147,6 +148,78 @@ namespace LAB02_ED1_DMRA
                 }
             }
             return contRes;
+        }
+        private static void Quicksort(double[] arr, string[] ID, int left, int right)
+        {
+            if (left < right)
+            {
+                int pivotIndex = Partition(arr, ID, left, right);
+                Quicksort(arr, ID, left, pivotIndex - 1);
+                Quicksort(arr, ID, pivotIndex + 1, right);
+            }
+        }
+        /*private static void BubbleSort(double[] arr, string[] ID)
+        {
+            int n = arr.Length;
+            for (int i = 0; i < n - 1; i++)
+            {
+                for (int j = 0; j < n - i - 1; j++)
+                {
+                    if (arr[j] > arr[j + 1])
+                    {
+                        // Intercambiar elementos en arr
+                        double temp = arr[j];
+                        arr[j] = arr[j + 1];
+                        arr[j + 1] = temp;
+
+                        // Intercambiar elementos en ID
+                        string tempID = ID[j];
+                        ID[j] = ID[j + 1];
+                        ID[j + 1] = tempID;
+                    }
+                }
+            }
+        }*/
+        private static int Partition(double[] arr, string[] ID, int left, int right)
+        {
+            double pivotValue = arr[right];
+            int pivotIndex = left - 1;
+            for (int i = left; i < right; i++)
+            {
+                if (arr[i] <= pivotValue)
+                {
+                    pivotIndex++;
+                    Swap(arr, ID, pivotIndex, i);
+                }
+            }
+            Swap(arr, ID, pivotIndex + 1, right);
+            return pivotIndex + 1;
+        }
+
+        private static void Swap(double[] arr, string[] ID, int i, int j)
+        {
+            double tempD = arr[i];
+            string tempS = ID[i];
+            arr[i] = arr[j];
+            ID[i] = ID[j];
+            arr[j] = tempD;
+            ID[j] = tempS;
+        }
+
+        private static void PrintResults(string[] ID, int contRes)
+        {
+            var finalResult = new StringBuilder("[");
+            for (int i = 0; i < contRes; i++)
+            {
+                finalResult.Append($"\"{ID[i]}\"");
+                if (i < contRes - 1)
+                {
+                    finalResult.Append(",");
+                }
+            }
+            finalResult.Append("]");
+
+            Console.WriteLine(finalResult);
         }
     }
 }
