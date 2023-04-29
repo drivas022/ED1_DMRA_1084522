@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
+using System.Text.Json;
 
 namespace LAB02_ED1_DMRA
 {
@@ -63,7 +65,32 @@ namespace LAB02_ED1_DMRA
                 
         static void Main(string[] args)
         {
+            for (int r = 0; r < 100; r++)
+            {
+                string jsonText = File.ReadAllText(@"C:\Users\driva\OneDrive - Universidad Rafael Landivar\Escritorio\LAB02_ED1_DMRA\LAB02_ED1_DMRA\input_challenge_lab_2.jsonl");
+                string[] jsonObjects = jsonText.Split(new[] { Environment.NewLine }, StringSplitOptions.RemoveEmptyEntries);
+                InputLab input = JsonSerializer.Deserialize<InputLab>(jsonObjects[r])!;
+                string[] ID = new string[1000];
+                double[] prices = new double[1000];
+                int contRes = 0;
 
+                if (input.input2.typeBuilder == "Apartments")
+                {
+                    contRes = ProcessApartments(input, ID, prices);
+                }
+                else if (input.input2.typeBuilder == "Houses")
+                {
+                    contRes = ProcessHouses(input, ID, prices);
+                }
+                else if (input.input2.typeBuilder == "Premises")
+                {
+                    contRes = ProcessPremises(input, ID, prices);
+                }
+
+                Quicksort(prices, ID, 0, contRes - 1);
+                //BubbleSort(prices, ID);
+                PrintResults(ID, contRes);
+            }
         }
         private static int ProcessApartments(InputLab input, string[] ID, double[] prices)
         {

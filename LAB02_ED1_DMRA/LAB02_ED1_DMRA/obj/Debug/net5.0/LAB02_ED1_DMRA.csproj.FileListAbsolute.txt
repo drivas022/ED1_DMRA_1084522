@@ -1,0 +1,16 @@
+C:\Users\driva\OneDrive - Universidad Rafael Landivar\Escritorio\LAB02_ED1_DMRA\LAB02_ED1_DMRA\bin\Debug\net5.0\LAB02_ED1_DMRA.exe
+C:\Users\driva\OneDrive - Universidad Rafael Landivar\Escritorio\LAB02_ED1_DMRA\LAB02_ED1_DMRA\bin\Debug\net5.0\LAB02_ED1_DMRA.deps.json
+C:\Users\driva\OneDrive - Universidad Rafael Landivar\Escritorio\LAB02_ED1_DMRA\LAB02_ED1_DMRA\bin\Debug\net5.0\LAB02_ED1_DMRA.runtimeconfig.json
+C:\Users\driva\OneDrive - Universidad Rafael Landivar\Escritorio\LAB02_ED1_DMRA\LAB02_ED1_DMRA\bin\Debug\net5.0\LAB02_ED1_DMRA.runtimeconfig.dev.json
+C:\Users\driva\OneDrive - Universidad Rafael Landivar\Escritorio\LAB02_ED1_DMRA\LAB02_ED1_DMRA\bin\Debug\net5.0\LAB02_ED1_DMRA.dll
+C:\Users\driva\OneDrive - Universidad Rafael Landivar\Escritorio\LAB02_ED1_DMRA\LAB02_ED1_DMRA\bin\Debug\net5.0\LAB02_ED1_DMRA.pdb
+C:\Users\driva\OneDrive - Universidad Rafael Landivar\Escritorio\LAB02_ED1_DMRA\LAB02_ED1_DMRA\obj\Debug\net5.0\LAB02_ED1_DMRA.csproj.AssemblyReference.cache
+C:\Users\driva\OneDrive - Universidad Rafael Landivar\Escritorio\LAB02_ED1_DMRA\LAB02_ED1_DMRA\obj\Debug\net5.0\LAB02_ED1_DMRA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\driva\OneDrive - Universidad Rafael Landivar\Escritorio\LAB02_ED1_DMRA\LAB02_ED1_DMRA\obj\Debug\net5.0\LAB02_ED1_DMRA.AssemblyInfoInputs.cache
+C:\Users\driva\OneDrive - Universidad Rafael Landivar\Escritorio\LAB02_ED1_DMRA\LAB02_ED1_DMRA\obj\Debug\net5.0\LAB02_ED1_DMRA.AssemblyInfo.cs
+C:\Users\driva\OneDrive - Universidad Rafael Landivar\Escritorio\LAB02_ED1_DMRA\LAB02_ED1_DMRA\obj\Debug\net5.0\LAB02_ED1_DMRA.csproj.CoreCompileInputs.cache
+C:\Users\driva\OneDrive - Universidad Rafael Landivar\Escritorio\LAB02_ED1_DMRA\LAB02_ED1_DMRA\obj\Debug\net5.0\LAB02_ED1_DMRA.dll
+C:\Users\driva\OneDrive - Universidad Rafael Landivar\Escritorio\LAB02_ED1_DMRA\LAB02_ED1_DMRA\obj\Debug\net5.0\refint\LAB02_ED1_DMRA.dll
+C:\Users\driva\OneDrive - Universidad Rafael Landivar\Escritorio\LAB02_ED1_DMRA\LAB02_ED1_DMRA\obj\Debug\net5.0\LAB02_ED1_DMRA.pdb
+C:\Users\driva\OneDrive - Universidad Rafael Landivar\Escritorio\LAB02_ED1_DMRA\LAB02_ED1_DMRA\obj\Debug\net5.0\LAB02_ED1_DMRA.genruntimeconfig.cache
+C:\Users\driva\OneDrive - Universidad Rafael Landivar\Escritorio\LAB02_ED1_DMRA\LAB02_ED1_DMRA\obj\Debug\net5.0\ref\LAB02_ED1_DMRA.dll

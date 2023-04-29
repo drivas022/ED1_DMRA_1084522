@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "LAB02_ED1_DMRA/1.0.0": {
+        "runtime": {
+          "LAB02_ED1_DMRA.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LAB02_ED1_DMRA/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
