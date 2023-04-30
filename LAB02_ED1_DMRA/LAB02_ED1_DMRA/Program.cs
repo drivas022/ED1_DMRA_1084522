@@ -115,6 +115,7 @@ namespace LAB02_ED1_DMRA
             }
             return contRes;
         }
+        //metodos de procesar informacion en las casas
         private static int ProcessHouses(InputLab input, string[] ID, double[] prices)
         {
             int contRes = 0;
@@ -155,6 +156,7 @@ namespace LAB02_ED1_DMRA
             }
             return contRes;
         }
+        //verificando inforamción de los comercios
         private static int ProcessPremises(InputLab input, string[] ID, double[] prices)
         {
             int contRes = 0;
@@ -176,7 +178,7 @@ namespace LAB02_ED1_DMRA
             }
             return contRes;
         }
-        private static void Quicksort(double[] arr, string[] ID, int left, int right)
+        /*private static void Quicksort(double[] arr, string[] ID, int left, int right)
         {
             if (left < right)
             {
@@ -184,8 +186,8 @@ namespace LAB02_ED1_DMRA
                 Quicksort(arr, ID, left, pivotIndex - 1);
                 Quicksort(arr, ID, pivotIndex + 1, right);
             }
-        }
-        /*private static void BubbleSort(double[] arr, string[] ID)
+        }*/
+        private static void BubbleSort(double[] arr, string[] ID)
         {
             int n = arr.Length;
             for (int i = 0; i < n - 1; i++)
@@ -206,7 +208,7 @@ namespace LAB02_ED1_DMRA
                     }
                 }
             }
-        }*/
+        }
         private static int Partition(double[] arr, string[] ID, int left, int right)
         {
             double pivotValue = arr[right];

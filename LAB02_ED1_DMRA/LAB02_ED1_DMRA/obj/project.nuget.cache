@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "BDQBB2ygdrMIWxTPP5NkPlk/CvHtn7gr/UN3J48t8+fLPF4KNRAOXzqZGB5MJq4qidNG43TClDMzkFoZruIuVA==",
+  "dgSpecHash": "lJ5HgpGsY0xncgygz1oXwmhWv+24Qv68xOAPYmSfw95AQY8pBDlblQjPA7C/fkll6mu8TW1707WOCNVk6NgvmQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\driva\\OneDrive - Universidad Rafael Landivar\\Escritorio\\LAB02_ED1_DMRA\\LAB02_ED1_DMRA\\LAB02_ED1_DMRA.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\driva\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\driva\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\driva\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\driva\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
   "logs": []
 }
